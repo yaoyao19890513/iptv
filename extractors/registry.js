@@ -120,6 +120,7 @@ import gzstv from './gzstv/index.js'
 import gxtv from './gxtv/index.js'
 import hebtv from './hebtv/index.js'
 import hbtv from './hbtv/index.js'
+import hkstv from './hkstv/index.js'
 import hnntv from './hnntv/index.js'
 import hntv from './hntv/index.js'
 import huyaLive from './huya-live/index.js'
@@ -150,6 +151,7 @@ const MODULES = [
   migu,
   yangshipin,
   fengshows,
+  hkstv,
   asianLive,
   bilibiliLive,
   huyaLive,
