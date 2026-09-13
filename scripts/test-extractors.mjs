@@ -750,10 +750,10 @@ check('深圳广电模块已注册，固定周期刷新且逐路径签名流必�
 check('省市广电模块卡片只显示地区名，不带平台品牌', () => {
   const expectedNames = {
     anhui: '安徽', beidou: '辽宁', chongqing: '重庆', sichuan: '四川', cztv: '浙江', dalian: '大连', fjtv: '福建', gansu: '甘肃', gdtv: '广东', gxtv: '广西',
-    gztv: '广州', hbtv: '湖北', hebtv: '河北', hnntv: '海南', hntv: '河南',
+    gztv: '广州', hbtv: '湖北', hebtv: '河北', heilongjiang: '黑龙江', hnntv: '海南', hntv: '河南',
     iqilu: '山东', jlntv: '吉林', jstv: '江苏', jxntv: '江西', kankanews: '上海', mgtv: '湖南', njtv: '南京', nmtv: '内蒙古',
     qtv: '青岛', sztv: '深圳',
-    xinjiang: '新疆',
+    xinjiang: '新疆', yunnan: '云南',
   }
   const groupOverrides = { dalian: '辽宁', gztv: '广东', sztv: '广东' }
   for (const [id, name] of Object.entries(expectedNames)) {

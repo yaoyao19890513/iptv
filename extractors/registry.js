@@ -121,6 +121,7 @@ import gztv from './gztv/index.js'
 import gzstv from './gzstv/index.js'
 import gxtv from './gxtv/index.js'
 import hebtv from './hebtv/index.js'
+import heilongjiang from './heilongjiang/index.js'
 import hbtv from './hbtv/index.js'
 import hkstv from './hkstv/index.js'
 import hnntv from './hnntv/index.js'
@@ -142,6 +143,7 @@ import songjiang from './songjiang/index.js'
 import sztv from './sztv/index.js'
 import yangshipin from './yangshipin/index.js'
 import xinjiang from './xinjiang/index.js'
+import yunnan from './yunnan/index.js'
 
 // 模块 id 会进 sourceId 并写进 EXTINF 属性值，不消毒就是注入面。
 // 与 utils/configBackupAPI.js 的文件名白名单同款约束。
@@ -176,6 +178,7 @@ const MODULES = [
   jxntv,
   hebtv,
   hbtv,
+  heilongjiang,
   hnntv,
   hntv,
   cztv,
@@ -185,6 +188,7 @@ const MODULES = [
   njtv,
   nmtv,
   xinjiang,
+  yunnan,
   qtv,
   kankanews,
   songjiang,
